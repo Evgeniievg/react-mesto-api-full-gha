@@ -32,7 +32,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(requestLogger);
 
 mongoose
-  .connect('mongodb://127.0.0.1:27017/mydb', { useNewUrlParser: true })
+  .connect('mongodb://127.0.0.1:27017/mongodb', { useNewUrlParser: true })
   .then(() => {
     console.log('Успешно установлена связь с MongoDB');
   })
