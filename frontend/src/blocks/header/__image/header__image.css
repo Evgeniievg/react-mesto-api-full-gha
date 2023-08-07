@@ -1,0 +1,18 @@
+.header__image{
+  width: 142px;
+  height: 33px;
+  cursor: pointer;
+  transition: all ease .3s;
+}
+
+.header__image:hover{
+  opacity: .8;
+}
+
+@media screen and (max-width: 550px) {
+  .header__image{
+    width: 103px;
+    height: 24px;
+    margin-left: 27px;
+  }
+}

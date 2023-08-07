@@ -1,0 +1,13 @@
+.elements{
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  .elements{
+    padding-top: 36px;
+  }
+}

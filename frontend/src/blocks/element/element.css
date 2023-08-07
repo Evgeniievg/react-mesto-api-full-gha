@@ -1,0 +1,33 @@
+.element{
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 32%;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .element{
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .element{
+    align-items: end;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .element{
+    width: 88.1%;
+  }
+}
+

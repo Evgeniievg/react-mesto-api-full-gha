@@ -1,0 +1,8 @@
+.header{
+  border-bottom: rgba(84, 84, 84, .7) 1px solid;
+  padding-bottom: 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
