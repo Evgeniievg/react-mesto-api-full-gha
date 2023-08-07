@@ -1,0 +1,18 @@
+.header-mobile{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: all ease .3s;
+}
+
+.header-mobile.active{
+  border-top: rgba(84, 84, 84, .7) 1px solid;
+  padding-top: 27px;
+}
+
+@media screen and (max-width: 550px) {
+  .header.active-mobile{
+    flex-direction: column-reverse;
+  }
+}
