@@ -7,7 +7,7 @@
 
 ## Ссылки на проект
 
-IP-адрес <158.160.112.23>
+IP 158.160.112.23
 
 Frontend https://project-mesto.nomoreparties.co/
 
