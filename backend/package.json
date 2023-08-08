@@ -30,6 +30,7 @@
     "validator": "^13.9.0",
     "cors": "^2.8.5",
     "winston": "3.10.0",
-    "express-winston": "4.2.0"
+    "express-winston": "4.2.0",
+    "dotenv": "16.3.1"
   }
 }

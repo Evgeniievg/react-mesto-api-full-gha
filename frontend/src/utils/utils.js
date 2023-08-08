@@ -1,4 +1,4 @@
-const link = "http://localhost:4000";
+const link = "https://api.project-mesto.nomoreparties.co";
 
 export {
   link,
