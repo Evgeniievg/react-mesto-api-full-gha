@@ -9,6 +9,6 @@
 
 IP-адрес 158.160.112.23
 
-Frontend https://project-mesto.nomoreparties.co
+Frontend https://project-mesto.nomoreparties.co/
 
-Backend https://api.project-mesto.nomoreparties.co
+Backend https://api.project-mesto.nomoreparties.co/
