@@ -5,7 +5,7 @@
 
 Адрес репозитория: https://github.com/Evgeniievg/react-mesto-api-full-gha
 
-## Ссылки на проект
+## Ссылки на проект:
 
 IP 158.160.112.23
 
