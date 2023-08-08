@@ -15,7 +15,7 @@ const { signupValidation } = require('./middlewares/signupValidation');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 const NotFoundError = require('./utils/not-found-error');
 
-const { PORT = 4000 } = process.env;
+const { PORT = 3000 } = process.env;
 const app = express();
 
 const limiter = rateLimit({
@@ -42,7 +42,7 @@ mongoose
   });
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://project-mesto.nomoreparties.co'],
+  origin: ['http://localhost:3001', 'https://project-mesto.nomoreparties.co'],
   credentials: true,
 }));
 
